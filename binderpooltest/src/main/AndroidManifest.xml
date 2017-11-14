@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.nisoft.sockettest">
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+          package="com.nisoft.binderpooltest">
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -19,7 +18,7 @@
         </activity>
 
         <service
-            android:name=".TCPServerService"
+            android:name=".BinderPoolService"
             android:enabled="true"
             android:exported="true"
             android:process=":remote">
